@@ -1,0 +1,23 @@
+body {
+    border: 0px 0px 0px 0px;
+    border-width: 0px;
+    
+    #root {
+        background-color: rgb(141, 21, 21);
+        border-color: black;
+        border-radius: 5px;
+        color: white;
+        font-size: 30px;
+    }
+
+    input[type=button], button{
+        color: white;
+        background: black;
+        border-radius: 5px;
+        border-width: 1px 2px 1px 2px;
+        min-width: 100px;
+        max-width: 200px;
+        font-size: 20px;
+        float: right;
+    }
+}
