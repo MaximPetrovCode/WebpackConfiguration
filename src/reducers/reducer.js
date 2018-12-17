@@ -1,23 +1,17 @@
-import { INCREMENT_VALUE, DECREMENT_VALUE, SET_LAST_ACTION } from "../actions/actions";
+import { ACTION_ONE } from "../actions/actions";
 
 const initialState = {
-    lastAction: "",
-    value: 1212,
-    lastAction: "",
+    value: null,
 }
 
-export default (state = initialState, action) => {
-    switch (action.type) {
-        case INCREMENT_VALUE:
-            return { ...state, value: action.value, lastAction: action.lastAction }
+export default (state = initialState, { type, payload }) => {
+  switch (type) {
 
-        case DECREMENT_VALUE:
-            return { ...state, value: action.value, lastAction: action.lastAction }
+  case ACTION_ONE:
+    return { ...state, ...payload }
 
-        case SET_LAST_ACTION:
-            return { ...state, lastAction: action.value }
-
-        default:
-            return state
-    }
+  default:
+    return state
+  }
 }
+
