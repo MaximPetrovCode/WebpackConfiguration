@@ -20,7 +20,7 @@ npm run start
 * react-dom: 16.6.3
 * react-redux: 6.0.0
 * react-router-dom: 4.3.1
-* redux: 4.0.1"
+* redux: 4.0.1
 * @babel/core: 7.2.2
 * @babel/node: 7.2.2
 * @babel/plugin-proposal-class-properties: 7.2.1
@@ -36,6 +36,8 @@ npm run start
 * html-webpack-plugin: 3.2.0
 * node-sass: 4.11.0
 * path: 0.12.7
+* prettier: 1.15.3
+* prettier-webpack-plugin: 1.2.0
 * redux-logger: 3.0.6
 * sass-loader: 7.1.0
 * style-loader: 0.23.1

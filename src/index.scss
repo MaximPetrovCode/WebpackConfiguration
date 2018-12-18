@@ -1,7 +1,7 @@
 body {
     border: 0px 0px 0px 0px;
     border-width: 0px;
-    
+
     #root {
         background-color: rgb(141, 21, 21);
         border-color: black;
@@ -10,7 +10,8 @@ body {
         font-size: 30px;
     }
 
-    input[type=button], button{
+    input[type="button"],
+    button {
         color: white;
         background: black;
         border-radius: 5px;

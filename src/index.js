@@ -5,10 +5,9 @@ import { store } from "./store/store";
 import "../src/index.scss";
 import App from "./components/App";
 
-
 ReactDOM.render(
-	<Provider store={store}>
-		<App />
-	</Provider>
-	, document.getElementById("root")
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById("root")
 );
