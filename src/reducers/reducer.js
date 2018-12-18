@@ -1,17 +1,16 @@
 import { ACTION_ONE } from "../actions/actions";
 
 const initialState = {
-    value: null,
-}
+	value: null,
+};
 
 export default (state = initialState, { type, payload }) => {
-  switch (type) {
+	switch (type) {
 
-  case ACTION_ONE:
-    return { ...state, ...payload }
+	case ACTION_ONE:
+		return { ...state, ...payload };
 
-  default:
-    return state
-  }
-}
-
+	default:
+		return state;
+	}
+};

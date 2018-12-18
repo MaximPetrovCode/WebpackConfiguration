@@ -5,7 +5,7 @@ import reducer from "../reducers/reducer";
 const logger = createLogger();
 
 const reducers = combineReducers({
-    reducer: reducer
-})
+	reducer: reducer
+});
 
 export let store = createStore(reducers, applyMiddleware(logger));
