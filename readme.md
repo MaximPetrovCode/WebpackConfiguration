@@ -1,10 +1,10 @@
 # My Webpack 4 babel 7 setups
 
-This setups contains Webpack 4,  Babel 7, Sass configurations with React-Redux.
+This setups contains Webpack 4, Babel 7, Eslint and Sass configurations with React-Redux project structure.
 
 ## Installing
 
-* Clone this project (git clone ...)
+* Clone this project (git clone git@github.com:MaximPetrovCode/WebpackConfiguration.git)
 * Install npm dependencies (npm install)
 
 ## Build
@@ -17,17 +17,21 @@ npm run start
 
 * axios: 0.18.0
 * react: 16.6.3
-* react-dom: 16.6.3,
+* react-dom: 16.6.3
 * react-redux: 6.0.0
 * react-router-dom: 4.3.1
-* redux: 4.0.1
+* redux: 4.0.1"
 * @babel/core: 7.2.2
 * @babel/node: 7.2.2
 * @babel/plugin-proposal-class-properties: 7.2.1
 * @babel/preset-env: 7.2.0
 * @babel/preset-react: 7.0.0
+* babel-eslint: 10.0.1
 * babel-loader: 8.0.4
 * css-loader: 2.0.1
+* eslint: 5.10.0
+* eslint-loader: 2.1.1
+* eslint-plugin-react: 7.11.1
 * file-loader: 2.0.0
 * html-webpack-plugin: 3.2.0
 * node-sass: 4.11.0
