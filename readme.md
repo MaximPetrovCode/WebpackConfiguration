@@ -1,6 +1,6 @@
 # My Webpack 4 babel 7 setups
 
-This setups contains Webpack 4,  Babel 7, Sass configurations with React-Redux.
+This setup contains Webpack 4,  Babel 7, Sass configurations with React-Redux.
 
 ## Installing
 
@@ -8,7 +8,7 @@ This setups contains Webpack 4,  Babel 7, Sass configurations with React-Redux.
 * Install npm dependencies (npm install)
 
 ## Build
-npm run webpack
+npm run build
 
 ## Run dev-mode
 npm run start
